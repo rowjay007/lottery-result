@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lottery Results</title>
+    <style>
+      .holder {
+        background: #1a271f;
+        padding: 0.5rem;
+        overflow: hidden;
+      }
+
+      .news {
+        animation: slide 10s linear infinite;
+        color: #ffc808;
+      }
+
+      @keyframes slide {
+        0% {
+          transform: translateX(100%);
+          -webkit-transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+          -webkit-transform: translateX(-100%);
+        }
+      }
+
+      .dot {
+        height: 25px;
+        width: 25px;
+        background-color: #efb138;
+        border-radius: 50%;
+        display: inline-flex;
+        color: #fefbf5;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .dotter {
+        height: 25px;
+        width: 25px;
+        background-color: #0082ea;
+        border-radius: 50%;
+        display: inline-flex;
+        color: #f6fbfe;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .dotters {
+        height: 25px;
+        width: 25px;
+        background-color: #ff0030;
+        border-radius: 50%;
+        display: inline-flex;
+        color: #f6fbfe;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="holder">
+      <h3 class="news">
+        Register now and get free Powerball group ticket |
+        <span style="color: #006333">Lotteries Results: </span
+        ><span>MegaMillions</span
+        ><span style="color: #ed666b"> 09.02.2022</span> -
+        <span class="dot">5</span>
+        <span class="dot">2</span>
+        <span class="dot">3</span>
+        <span class="dotter">4</span>
+      </h3>
+    </div>
+  </body>
+</html>
